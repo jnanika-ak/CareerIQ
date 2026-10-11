@@ -63,6 +63,41 @@ When the FastAPI backend starts, it automatically creates any missing tables saf
 | `interview_readiness` | Multi-factor weighted interview readiness scores | `id`, `candidate_id` (FK), `score`, `readiness_level`, sub-scores, `created_at` |
 
 ---
+## System Architecture
+
+CareerIQ follows a full-stack architecture with a React frontend, a FastAPI backend, and a PostgreSQL database.
+
+```text
+                    ┌─────────────────────┐
+                    │        User         │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │   React + Vite      │
+                    │ Frontend (Vercel)   │
+                    └──────────┬──────────┘
+                               │ HTTP / REST API
+                               ▼
+                    ┌─────────────────────┐
+                    │   FastAPI Backend   │
+                    │      (Render)       │
+                    └──────────┬──────────┘
+                               │ SQLAlchemy
+                               ▼
+                    ┌─────────────────────┐
+                    │ PostgreSQL Database │
+                    │     (Supabase)      │
+                    └─────────────────────┘
+```
+
+### Architecture Components
+
+- **Frontend:** React and Vite provide the interactive dashboard and user interface.
+- **Backend:** FastAPI exposes REST API endpoints for resume analysis, job matching, career recommendations, and interview preparation.
+- **Database:** PostgreSQL stores candidate profiles, resume analysis history, job matches, skill gaps, and learning roadmap records.
+- **ORM:** SQLAlchemy manages communication between the backend and the database.
+- **Deployment:** Vercel hosts the frontend, while Render hosts the backend and Supabase provides the hosted PostgreSQL database.
 
 ## How to Run the Application
 
