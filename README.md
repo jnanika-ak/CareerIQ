@@ -1,24 +1,32 @@
-# CareerIQ — AI-Powered Job Intelligence & Career Copilot
+## CareerIQ — AI-Powered Job Intelligence & Career Copilot
 
-**Live Demo:** https://career-iq-ten.vercel.app
+**Turn your resume into a personalized career roadmap.**
 
-**Backend API:** https://careeriq-rsb5.onrender.com
+CareerIQ is a full-stack career intelligence platform that analyzes resumes, evaluates job compatibility, identifies skill gaps, recommends career paths, and generates personalized learning roadmaps with interview readiness insights.
 
-**API Documentation:** https://careeriq-rsb5.onrender.com/docs
+### Live Links
 
-## Overview
-CareerIQ is an intelligent career copilot designed to help job seekers navigate the modern employment landscape. By leveraging structured text parsing, requirement extraction, career trajectory mapping, personalized learning roadmaps, and interview readiness evaluation, CareerIQ empowers professionals to discover high-match opportunities and accelerate their career growth.
+- **Live Application:** https://career-iq-ten.vercel.app
+- **Backend API:** https://careeriq-rsb5.onrender.com
+- **API Documentation:** https://careeriq-rsb5.onrender.com/docs
 
----
+### Key Features
 
-## Technology Stack
+- **Resume Intelligence:** Upload PDF or DOCX resumes and extract candidate profiles, skills, education, experience, and projects.
+- **Job Match Analysis:** Compare candidate skills against job descriptions and identify matched and missing requirements.
+- **Career Recommendations:** Explore suitable career paths and role-fit scores.
+- **Skill Gap Analysis:** Identify high-priority skills to improve for a target role.
+- **Personalized Learning Roadmap:** Organize learning priorities into a structured plan.
+- **Interview Readiness:** Assess preparation across technical skills, role alignment, skill coverage, and project readiness.
+- **Persistent Data:** Store candidate and analysis records in PostgreSQL.
 
-- **Frontend**: React 18, Vite, Native Web APIs (Fetch, Canvas, CSS3 Custom Properties)
-- **Backend**: Python 3.11+, FastAPI, Uvicorn, Pydantic v2
-- **Document Extraction**: PyMuPDF (`fitz`), `python-docx`
-- **Database & Persistence**: PostgreSQL 18.x, SQLAlchemy 2.x, `psycopg 3` (`psycopg[binary]`), `python-dotenv`
+### Technology Stack
 
----
+- **Frontend:** React, Vite, JavaScript, CSS
+- **Backend:** Python, FastAPI, Uvicorn
+- **Resume Processing:** PyMuPDF, python-docx
+- **Database:** PostgreSQL, SQLAlchemy, psycopg
+- **Deployment:** Vercel, Render, Supabase
 
 ## Database Architecture & Requirements
 
