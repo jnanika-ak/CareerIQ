@@ -1,5 +1,11 @@
 # CareerIQ — AI-Powered Job Intelligence & Career Copilot
 
+**Live Demo:** https://career-iq-ten.vercel.app
+
+**Backend API:** https://careeriq-rsb5.onrender.com
+
+**API Documentation:** https://careeriq-rsb5.onrender.com/docs
+
 ## Overview
 CareerIQ is an intelligent career copilot designed to help job seekers navigate the modern employment landscape. By leveraging structured text parsing, requirement extraction, career trajectory mapping, personalized learning roadmaps, and interview readiness evaluation, CareerIQ empowers professionals to discover high-match opportunities and accelerate their career growth.
 
