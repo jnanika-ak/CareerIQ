@@ -1,6 +1,6 @@
 ## CareerIQ — AI-Powered Job Intelligence & Career Copilot
 
-**Turn your resume into a personalized career roadmap **
+**Turn your resume into a personalized career roadmap and get your dream job **
 
 CareerIQ is a full-stack career intelligence platform that helps to analyzes resumes, evaluates job compatibility, identifies skill gaps, recommends career paths, and generates personalized learning roadmaps with interview readiness insights.
 
