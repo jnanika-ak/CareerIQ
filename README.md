@@ -26,7 +26,7 @@ CareerIQ is a full-stack career intelligence platform that helps to analyzes res
 - **Backend:** Python, FastAPI, Uvicorn
 - **Resume Processing:** PyMuPDF, python-docx
 - **Database:** PostgreSQL, SQLAlchemy, psycopg
-- **Deployment:** Vercel, Render, Supabase
+- **Deployment:** Vercel, Render, Superbase
 
 ## Database Architecture & Requirements
 
