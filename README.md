@@ -71,7 +71,7 @@ When the FastAPI backend starts, it automatically creates any missing tables saf
 | `interview_readiness` | Multi-factor weighted interview readiness scores | `id`, `candidate_id` (FK), `score`, `readiness_level`, sub-scores, `created_at` |
 
 ---
-## System Architecture
+## System Architecture of CareerIQ
 
 CareerIQ follows a full-stack architecture with a React frontend, a FastAPI backend, and a PostgreSQL database.
 
@@ -109,7 +109,7 @@ CareerIQ follows a full-stack architecture with a React frontend, a FastAPI back
 
 ## How to Run the Application
 
-### 1. Backend Setup & Startup
+### 1. Backend Setup & Startup of this project
 
 ```powershell
 # Navigate to the backend directory
