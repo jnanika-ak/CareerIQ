@@ -99,7 +99,7 @@ CareerIQ follows a full-stack architecture with a React frontend, a FastAPI back
                     └─────────────────────┘
 ```
 
-### Architecture Components
+### Architecture Components of CareerIQ
 
 - **Frontend:** React and Vite provide the interactive dashboard and user interface.
 - **Backend:** FastAPI exposes REST API endpoints for resume analysis, job matching, career recommendations, and interview preparation.
@@ -177,7 +177,7 @@ with engine.connect() as conn:
 
 ---
 
-## API Endpoints Reference
+## API Endpoints Reference of the Project
 
 | Endpoint | Method | Description |
 | :--- | :---: | :--- |
